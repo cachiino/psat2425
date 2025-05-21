@@ -51,7 +51,7 @@ f. git branch -M main
 g. git push -u origin main
 </pre>
 ### 6. Buka AWS dan buat database menggunakan "Aurora and RDS"
-a. Buka "Aurora and RDS"
+<pre>a. Buka "Aurora and RDS"
 b. Klik "Databases"
 c. Tekan "Create database"
 d. Engine options pilih "MySQL"
@@ -63,9 +63,10 @@ i. Biarkan Public access tetap No
 j. Tambahkan security groups yang mengizinkan port 3306 (MySQL / MariaDB)
 k. Jika sudah klik "Create database"
 l. Tunggu hingga "Endpoint" muncul
-
+</pre>
 ## CARA 1
 ### 1. Buat Instances
+<pre>
 a. Beri nama instance pada bagian "Name"
 b. Pilih OS Ubuntu
 c. Instance type : t2.micro
@@ -75,8 +76,9 @@ Allow SSH (port 22)
 Allow HTTPS (port 443)
 Allow HTTP (port 80)
 Anywhere 0.0.0.0/0
-
+</pre>
 ### 2. Tambahkan shell script
+<pre>
 a. Masih di halaman "launch an instance"
 b. Klik "Advanced details"
 c. Scroll sampai pada bagian "User data"
@@ -109,7 +111,7 @@ Penjelasan :
 
 e. Pastikan semuanya sudah terisi dengan benar, jika sudah klik "Launch Instance"
 f. Jika instance tidak muncul refresh halaman instances 
-
+</pre>
 ### 3. Buka terminal instance
 a. klik "Instance ID" ke instance yang sudah kita buat tadi
 b. Klik "Connect"
