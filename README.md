@@ -83,6 +83,7 @@ a. Masih di halaman "launch an instance"
 b. Klik "Advanced details"
 c. Scroll sampai pada bagian "User data"
 d. Tambahkan :
+</pre>
 ```
 #!/bin/bash
 echo '#!/bin/bash
@@ -102,6 +103,7 @@ sudo systemctl reload apache2' > /home/ubuntu/otomatis.sh
 
 chmod +x /home/ubuntu/otomatis.sh  
 ```
+<pre>
 Penjelasan :
 - contoh sudo git clone > sudo git clone https://github.com/cachiino/psat2425 /var/www/html/.env
 - DB_USER berisi username yang tadi dibuat di RDS (Master Username)
@@ -113,26 +115,32 @@ e. Pastikan semuanya sudah terisi dengan benar, jika sudah klik "Launch Instance
 f. Jika instance tidak muncul refresh halaman instances 
 </pre>
 ### 3. Buka terminal instance
+<pre>
 a. klik "Instance ID" ke instance yang sudah kita buat tadi
 b. Klik "Connect"
 c. Scroll sedikit ke bawah dan klik "Connect"
-
+</pre>
 ### 4. Jalankan shell script yang sudah tadi dibuat
+<pre>
 Gunakan perintah :
 > $ ./otomatis.sh  
-
+</pre>
 ### 5. Cek akses menggunakan ip
 
 
 ## Cara 2 
 ### 1. Buka terminal instance
+<pre>
 a. klik "Instance ID" ke instance yang sudah kita buat tadi
 b. Klik "Connect"
 c. Scroll sedikit ke bawah dan klik "Connect"
+</pre>
 
-#2. Tuliskan perintah untuk menjalankan script :
+# 2. Tuliskan perintah untuk menjalankan script :
+<pre>
 a. $ nano otomatis.sh
 tuliskan shell script sama seperti cara 1
+</pre>
 ``` 
 #!/bin/bash
 echo '#!/bin/bash
@@ -152,14 +160,15 @@ sudo systemctl reload apache2' > /home/ubuntu/otomatis.sh
 
 chmod +x /home/ubuntu/otomatis.sh  
 ```
+<pre>
 b. Ketik $ chmod +x otomatis.sh
 c. Jalankan dengan $ ./otomatis.sh
-
+</pre>
 ### 3. Coba akses menggunakan ip
 
 Jika masuk, Selamat! kalian berhasil deploy aplikasi otomatis menggunakan shell scriptt🥳‼️
 
-Penjelasan tambahan mengenai shell script dan fungsi dari masing masing perintah : 
+Penjelasan tambahan mengenai shell script dan fungsi dari masing masing perintah : </br>
 Shell script adalah file teks yang berisi kumpulan perintah (commands) yang dijalankan secara otomatis oleh shell. Jadi, kamu ga perlu ngetik perintah satu-satu di terminal, bisa kamu tulis semuanya langsung dalam satu file .sh, lalu jalankan, praktis banget kan! 
 
 ## Fungsi masing-masing perintah yang ada di otomatis.sh tadi 
