@@ -37,18 +37,18 @@ uploads/*             #> Abaikan semua isi folder uploads
 ```
 
 ### 5. Push program ke github 
-cara push :
-a. buka terminal 
-Klik Terminal > New Terminal
-atau bisa juga 
-Tekan Ctrl+'
-b. Ketik > git init
-c. git remote add origin [tambahkan link repository]
-contoh : git remote add origin https://github.com/cachiino/psat2425
-d. git add .
-e. git commit -m "first commit"
-f. git branch -M main
-g. git push -u origin main
+cara push : </br>
+a. buka terminal </br>
+Klik Terminal > New Terminal </br>
+atau bisa juga </br>
+Tekan Ctrl+'</br>
+b. Ketik > git init</br>
+c. git remote add origin [tambahkan link repository]</br>
+contoh : git remote add origin https://github.com/cachiino/psat2425</br>
+d. git add .</br>
+e. git commit -m "first commit"</br>
+f. git branch -M main</br>
+g. git push -u origin main</br>
 
 ### 6. Buka AWS dan buat database menggunakan "Aurora and RDS"
 a. Buka "Aurora and RDS"
