@@ -121,10 +121,10 @@ b. Klik "Connect"
 c. Scroll sedikit ke bawah dan klik "Connect"
 </pre>
 ### 4. Jalankan shell script yang sudah tadi dibuat
-<pre>
 Gunakan perintah :
+```
 > $ ./otomatis.sh  
-</pre>
+```
 ### 5. Cek akses menggunakan ip
 
 
@@ -185,7 +185,7 @@ Shell script adalah file teks yang berisi kumpulan perintah (commands) yang dija
 
 ## Uji coba menjalankan
 Jalakan menggunakan username dan password default berikut ini :
-# Username = admin
-# Password = 123
+## Username = admin
+## Password = 123
 
-## ✨‼️SELAMAT MENCOBA DAN SEMOGA BERHASIL‼️✨‼ 
+### ✨‼️SELAMAT MENCOBA DAN SEMOGA BERHASIL‼️✨
