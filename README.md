@@ -13,7 +13,8 @@ Contoh data yang bisa dimasukan ke file .env adalah :
 - Host (alamat server)
 
 Contoh isi file .env :
-```.env
+```
+.env
 DB_USER=admin
 DB_PASS=P4ssw0rd123
 DB_NAME=psat2425
@@ -29,7 +30,8 @@ Sekarang temen-temen udah paham kan apa itu file .env, setelah ini ada cara depl
 ### 4. Pastikan sudah ada atau buat file ".gitignore"
 File .gitignore adalah file yang memberitahu git untuk mengabaikan file atau folder tertentu saat akan push ke github ataupun commit ke repo lokal. File .gitigone ini penting banget buat sembunyiin file .env kita supaya tetap aman dan rahasia.
 Contoh isi file .gitignore :
-```.env                  #> Abaikan file .env (isi data sensitif)
+```
+.env                  #> Abaikan file .env (isi data sensitif)
 uploads/*             #> Abaikan semua isi folder uploads
 !uploads/             #> Tapi jangan abaikan folder uploads itu sendiri
 ```
@@ -79,7 +81,8 @@ a. Masih di halaman "launch an instance"
 b. Klik "Advanced details"
 c. Scroll sampai pada bagian "User data"
 d. Tambahkan :
-```#!/bin/bash
+```
+#!/bin/bash
 echo '#!/bin/bash
 sudo apt update -y
 sudo apt install -y apache2 php php-mysql libapache2-mod-php mysql-client
@@ -128,7 +131,8 @@ c. Scroll sedikit ke bawah dan klik "Connect"
 #2. Tuliskan perintah untuk menjalankan script :
 a. $ nano otomatis.sh
 tuliskan shell script sama seperti cara 1
-``` #!/bin/bash
+``` 
+#!/bin/bash
 echo '#!/bin/bash
 sudo apt update -y
 sudo apt install -y apache2 php php-mysql libapache2-mod-php mysql-client
