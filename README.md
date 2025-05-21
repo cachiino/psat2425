@@ -39,12 +39,12 @@ uploads/*             #> Abaikan semua isi folder uploads
 ### 5. Push program ke github 
 cara push : </br>
 a. buka terminal </br>
-Klik Terminal > New Terminal </br>
-atau bisa juga </br>
-Tekan Ctrl+'</br>
+    Klik Terminal > New Terminal </br>
+    atau bisa juga </br>
+    Tekan Ctrl=Shift+'</br>
 b. Ketik > git init</br>
 c. git remote add origin [tambahkan link repository]</br>
-contoh : git remote add origin https://github.com/cachiino/psat2425</br>
+    contoh : git remote add origin https://github.com/cachiino/psat2425</br>
 d. git add .</br>
 e. git commit -m "first commit"</br>
 f. git branch -M main</br>
